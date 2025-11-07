@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakt Setu</title>
+    <link rel="icon" href="./Images/bb_logo(white).png" type="image/png">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <!--Scroll to top button-->
+    <button onclick="topFunction()" id="myBtn" class="fas fa-arrow-up"></button>
+
+    <!-- Home Page -->
+    <!-- HEADER -->
+
+    <header>
+        <div class="header-bg" id = "home_page">
+            <img src="https://cdn.vectorstock.com/i/1000v/13/94/blood-donation-logo-pulse-drop-vector-26181394.jpg"
+                alt="Header Background" id="header-bg-img">
+        </div>
+
+        <div id="logo">
+            <a href="index.html"><img src="raktsetu_logo.png" alt="Logo" id="logo-img"></a>
+        </div>
+
+        <div id="nav">
+            <div class="header-list" id="headerl">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a class="scroll" href="#about-us">About Us</a></li>
+                    <li><a class="scroll" href="#vol-sect">Volunteer</a></li>
+                    <li><a href="donate.html" target="_blank">Donate</a></li>
+                    <li><a href="help.html" target="_blank">Get Help</a></li>
+                    <li><a href="emergency.html" target="_blank">Emergency Alerts</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+
+        <div class="text-box">
+            <h1>Together We</h1>
+            <h1><span>Save Lives</span></h1>
+            <p>Every drop matters — join our mission to connect donors and save lives in emergencies.</p>
+            <a href="Register.html" class="hero-btn" target="_blank">Join Us</a>
+        </div>
+    </header>
+
+    <!-- ABOUT SECTION -->
+    <main>
+        <section id="about-us">
+            <div class="about">
+                <h1 class="heading">What is this all about?</h1>
+                <p class="head-des">
+                    Every second can save a life. We are building a bridge between those who need blood urgently and
+                    those who have
+                    the power to give it. Our mission is simple yet vital — to make blood accessible when and where it’s
+                    needed most.
+                </p>
+
+                <div class="row">
+                    <div class="about-col">
+                        <div class="image"><img
+                                src="https://hmcedu.in/images/human-blood-donate-on-white-background-free-vector.jpg"
+                                alt="Blood donation"></div>
+                        <h3>What We Do</h3>
+                        <p>
+                            We connect voluntary donors directly with recipients through an easy, fast, and transparent
+                            system.
+                            By cutting down delays and intermediaries, we make sure that help reaches the right place at
+                            the right time.
+                        </p>
+                    </div>
+
+                    <div class="about-col">
+                        <div class="image"><img
+                                src="https://images.squarespace-cdn.com/content/v1/57fe9f0c3e00be2ec084d968/1516594554471-635SNQMPUISG553JL2GU/Artboard+3.png"
+                                alt="Digital innovation"></div>
+                        <h3>Innovation That Saves Lives</h3>
+                        <p>
+                            Our platform uses smart matching and real-time location tracking to alert nearby donors
+                            instantly.
+                            Through technology and compassion, we ensure no emergency goes unanswered.
+                        </p>
+                    </div>
+
+                    <div class="about-col">
+                        <div class="image"><img
+                                src="https://www.shutterstock.com/image-photo/new-emergency-alert-notification-on-260nw-2428710049.jpg"
+                                alt="Emergency network"></div>
+                        <h3>Emergency Response Network</h3>
+                        <p>
+                            The moment a request is raised, our system broadcasts alerts to registered donors,
+                            hospitals, and volunteers.
+                            Within minutes, a life-saving chain of response is activated — fast, reliable, and
+                            human-centered.
+                        </p>
+                    </div>
+
+                    <div class="about-col">
+                        <div class="image"><img
+                                src="data:image/jpeg;base64,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"
+                                alt="Notifications"></div>
+                        <h3>Instant Notifications</h3>
+                        <p>
+                            Donors and recipients receive live updates via app and SMS alerts. Every notification brings
+                            someone closer
+                            to the help they need — because in an emergency, communication is the first cure.
+                        </p>
+                    </div>
+
+                    <div class="about-col">
+                        <div class="image"><img
+                                src="https://png.pngtree.com/png-vector/20220527/ourmid/pngtree-completely-free-grunge-rubber-stamp-on-white-background-png-image_4759600.png"
+                                alt="Free community service"></div>
+                        <h3>Completely Free for Everyone</h3>
+                        <p>
+                            Our initiative runs purely on community spirit. There are no fees, no middlemen, and no
+                            barriers —
+                            just people helping people. Together, we’re proving that compassion is the strongest
+                            currency of all.
+                        </p>
+                    </div>
+
+                    <div class="about-col">
+                        <div class="image"><img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDFcw-oFgMDdEa5t1Ta_aRVIt40khH8jqx7A&s"
+                                alt="Save lives"></div>
+                        <h3>Join the Mission — Save Lives</h3>
+                        <p>
+                            When you register as a donor, you don’t just give blood — you give hope, time, and a second
+                            chance.
+                            Join our mission today and become a lifeline for someone tomorrow. Every drop counts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- VOLUNTEER SECTION -->
+    <section class="volunteer-section" id="vol-sect">
+        <h2 class="vol-heading">Top Life-Saving Volunteers</h2>
+        <p class="vol-subtext">
+            Meet the heroes who make our mission possible. Each of them has donated selflessly and saved countless
+            lives.
+            Their compassion fuels the heartbeat of Rakt Setu.
+        </p>
+
+        <div class="volunteer-container">
+            <div class="vol-card">
+                <div class="vol-img">
+                    <img src="https://t4.ftcdn.net/jpg/02/29/75/83/360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg" alt="Volunteer 1">
+                </div>
+                <h3>Rahul Sharma</h3>
+                <p>Delhi, India</p>
+                <span class="lives-saved">Lives Saved: 18</span>
+            </div>
+
+            <div class="vol-card">
+                <div class="vol-img">
+                    <img src="https://t4.ftcdn.net/jpg/02/29/75/83/360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg" alt="Volunteer 2">
+                </div>
+                <h3>Priya Nair</h3>
+                <p>Bengaluru, India</p>
+                <span class="lives-saved">Lives Saved: 15</span>
+            </div>
+
+            <div class="vol-card">
+                <div class="vol-img">
+                    <img src="https://t4.ftcdn.net/jpg/02/29/75/83/360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg" alt="Volunteer 3">
+                </div>
+                <h3>Arjun Mehta</h3>
+                <p>Mumbai, India</p>
+                <span class="lives-saved">Lives Saved: 13</span>
+            </div>
+
+            <div class="vol-card">
+                <div class="vol-img">
+                    <img src="https://t4.ftcdn.net/jpg/02/29/75/83/360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg" alt="Volunteer 4">
+                </div>
+                <h3>Neha Patel</h3>
+                <p>Ahmedabad, India</p>
+                <span class="lives-saved">Lives Saved: 11</span>
+            </div>
+
+            <div class="vol-card">
+                <div class="vol-img">
+                    <img src="https://t4.ftcdn.net/jpg/02/29/75/83/360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg" alt="Volunteer 5">
+                </div>
+                <h3>Amit Verma</h3>
+                <p>Jaipur, India</p>
+                <span class="lives-saved">Lives Saved: 9</span>
+            </div>
+
+            <div class="vol-card more-box">
+                <div class="vol-img">
+                    <img src="https://www.shutterstock.com/image-vector/brush-style-join-us-red-260nw-2427581371.jpg" alt="More Volunteers">
+                </div>
+                <h3>More Heroes Coming Soon</h3>
+                <p>Be the next to make a difference.</p>
+                <a href="Register.html" class="join-btn" target="_blank">Join as Volunteer</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- EMERGENCY ALERTS BUTTON (no map here) -->
+    <section class="emergency-section" id="emergency">
+  <div class="emergency-content">
+    <h2>🚨 Emergency Blood Alerts</h2>
+    <p>
+      In moments of urgency, every second matters. Stay connected and get instant alerts 
+      when someone near you needs life-saving blood.
+    </p>
+    <button class="emergency-btn" onclick="window.location.href='emergency.html'">
+      Open Emergency Page
+    </button>
+  </div>
+</section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- Left section - Info -->
+            <div class="footer-info">
+                <h2>RaktSetu</h2>
+                <p>Connecting hearts through the bridge of life.
+                    Join the movement to make blood accessible, safe, and available for all.</p>
+
+                <div class="footer-links">
+                    <a href="#">About Us</a>
+                    <a href="#">Donate</a>
+                    <a href="#">Volunteer</a>
+                    <a href="#">Contact</a>
+                </div>
+
+                <div class="footer-socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <!-- Right section - Image space -->
+            <div class="footer-image">
+                <img src="raktsetu_logo.png" alt="Blood Donation" />
+                <p>Be the Bridge That Saves a Life</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 RaktSetu | All Rights Reserved</p>
+        </div>
+    </footer>
+
+</html>
